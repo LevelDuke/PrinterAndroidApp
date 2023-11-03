@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="PrinterAndroidApp.LoginPage"
+			 Title="Login">
+
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand">
+			<Image Source="PrinterInnovationLogo"
+				   HeightRequest="350"/>
+
+			<Label Text="Welcome Back!"
+					FontSize="30"
+					TextColor="Black"
+					FontAttributes="Bold"
+					Margin="10,0,0,10"
+					HorizontalOptions="Center" />
+
+			<Entry x:Name="usernameEntry"
+					Margin="15,5,15,5"
+					Placeholder="Username" />
+
+			<Entry x:Name="passwordEntry"
+					Margin="15,5,15,5"
+					IsPassword="true"
+		            Placeholder="Password"/>
+
+			<Button Text="Sign In"
+					FontAttributes="Bold"
+					CornerRadius="25"
+					BackgroundColor="LightBlue"
+					Margin="10,0,10,5"
+					TextColor="Black"
+		   			Clicked="OnLoginButtonClicked" />
+
+			<Button Text="Register"
+					FontAttributes="Bold"
+					CornerRadius="25"
+					BackgroundColor="LightBlue"
+					Margin="10,5,10,10"
+					TextColor="Black"
+					Clicked="OnSignUpButtonClicked"/>
+
+			<Label x:Name="messageLabel" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

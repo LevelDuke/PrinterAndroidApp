@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="PrinterAndroidApp.SignUpPage"
+			 Title="Sign Up">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="StartAndExpand">
+			<Image Source="PrinterInnovationLogo"
+				   HeightRequest="300"/>
+
+			<Label Text="Create An Account"
+					FontSize="30"
+					TextColor="Black"
+					FontAttributes="Bold"
+					Margin="10,0,0,10"
+					HorizontalOptions="Center" />
+
+			<Entry x:Name="firstnameEntry"
+					Margin="5"
+					Placeholder="First Name"/>
+
+			<Entry x:Name="lastnameEntry"
+					Margin="5"
+					Placeholder="Last Name"/>
+
+			<Entry x:Name="usernameEntry"
+					Margin="5"
+					Placeholder="Username"/>
+
+			<Entry x:Name="passwordEntry"
+					Margin="5"
+					Placeholder="Password"
+					IsPassword="true" />
+
+			<Entry x:Name="emailEntry"
+					Margin="5"
+					Placeholder="Email"/>
+
+			<Button Text="Sign Up"
+					FontAttributes="Bold"
+					CornerRadius="25"
+					BackgroundColor="LightBlue"
+					Margin="10,0,10,5"
+					TextColor="Black"
+					Clicked="OnSignUpButtonClicked" />
+
+			<Label x:Name="messageLabel" />
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

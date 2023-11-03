@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterAndroidApp.Android", "PrinterAndroidApp\PrinterAndroidApp.Android\PrinterAndroidApp.Android.csproj", "{43D8C8B0-826B-4242-B311-093933291885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterAndroidApp", "PrinterAndroidApp\PrinterAndroidApp\PrinterAndroidApp.csproj", "{F78D55A5-7785-4564-B04B-C1BB01563EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D8C8B0-826B-4242-B311-093933291885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D8C8B0-826B-4242-B311-093933291885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D8C8B0-826B-4242-B311-093933291885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D8C8B0-826B-4242-B311-093933291885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78D55A5-7785-4564-B04B-C1BB01563EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78D55A5-7785-4564-B04B-C1BB01563EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78D55A5-7785-4564-B04B-C1BB01563EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78D55A5-7785-4564-B04B-C1BB01563EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5474AD44-836C-4D79-8657-8F0BA68245B3}
+	EndGlobalSection
+EndGlobal
